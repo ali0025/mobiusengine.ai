@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&family=DM+Sans:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sora: "Sora", sans-serif; 
+  --font-dmsans: "DM+Sans", sans-serif; 
+  --color-light-blue: #0649E7; 
+  --color-dark-blue: #022183; 
+  --color-offwhite: #EBF1FF; 
+  --color-whiteish: #FEFEFE; 
+  --color-blackish: #101010; 
+
+
+}
+/* #0649E7
+#022183
+#FEFEFE
+#EBF1FF
+#101010 */
