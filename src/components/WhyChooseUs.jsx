@@ -1,6 +1,6 @@
 import React from "react";
 import asset31 from '../assets/components/Asset31.svg'
-import profile from '../assets/components/profile1.svg'
+import Contact  from "../assets/components/contact.svg";
 import star from '../assets/components/Star1.svg'
 
 const WhyChooseUs = () => {
@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
         "Built by folks with 40+ years in tech and hiring — we know the game, and we've got your back.",
     },
     {
-      icon: profile,
+      icon: Contact,
       title: "Real People, Real Help",
       description:
         "A hands-on team that actually cares — guiding you through every twist in your career path.",
