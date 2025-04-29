@@ -1,6 +1,6 @@
 import React from "react";
 import asset31 from '../assets/components/Asset31.svg'
-import profile from '../assets/components/profile 1.svg'
+import profile from '../assets/components/profile1.svg'
 import star from '../assets/components/Star1.svg'
 
 const WhyChooseUs = () => {
