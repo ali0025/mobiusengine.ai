@@ -32,15 +32,15 @@ const ResumeServices = () => {
   ];
 
   return (
-    <section className="py-12 bg-white">
-      <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-2 text-blue-600">Resume Building & Coaching</h2>
+    <section className="py-16 ">
+      <div className="max-w-[969px] flex flex-col items-start justify-center mx-auto px-4">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-2 text-light-blue">Resume Building & Coaching</h2>
         <p className="text-center text-gray-600 text-sm mb-10">
           Let's talk about where you're headed — and how your resume can get you there. Schedule a call to get started.
         </p>
 
-        {/* Cards */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-16">
+   
+        <div className="flex mx-auto h-[619px] flex-col md:flex-row items-center  gap-[45px] mb-16">
           {services.map((service, index) => (
             <ServiceCard
               key={index}
@@ -52,12 +52,12 @@ const ResumeServices = () => {
           ))}
         </div>
 
-        {/* Contact Us Section */}
-        <div className="bg-blue-600 text-white rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between max-w-3xl mx-auto">
-          <p className="uppercase text-xs tracking-wide mb-2 md:mb-0">Still have doubts?</p>
-          <div className="text-2xl font-bold mb-2 md:mb-0">Contact us</div>
-          <button className="bg-white text-blue-600 rounded-full p-3">
-            <ArrowRight size={20}/>
+       
+        <div className="bg-light-blue w-[1056px] translate-x-[-60px] h-[265.5px] font-dmsans text-white rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between ">
+          <p className="uppercase text-3xl tracking-wide mb-2 md:mb-0">Still have<br/> doubts?</p>
+          <div className="text-[60px] font-bold mb-2 md:mb-0">Contact us</div>
+          <button className="bg-white text-blue-600 rounded-full p-3 transition-all duration-300 hover:bg-[#022183] hover:text-whiteish">
+            <ArrowRight size={40}/>
           </button>
         </div>
       </div>

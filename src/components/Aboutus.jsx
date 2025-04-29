@@ -15,12 +15,12 @@ export default function Aboutus() {
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       />
 
-      {/* Content on top */}
+     
       <div className="relative max-w-6xl mx-auto z-10 text-white">
         <h2 className="text-3xl md:text-4xl font-semibold mb-16">About Us</h2>
 
         <div className="flex flex-col gap-24 items-center">
-          {/* Profile 1 */}
+         
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="relative flex justify-center items-center">
               <div className="w-40 h-40 md:w-48 md:h-48 bg-white rounded-full flex justify-center items-center overflow-hidden">
@@ -55,7 +55,7 @@ export default function Aboutus() {
             </div>
           </div>
 
-          {/* Profile 2 */}
+         
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="relative flex justify-center items-center">
               <div className="w-40 h-40 md:w-48 md:h-48 bg-white rounded-full flex justify-center items-center overflow-hidden">
@@ -91,7 +91,7 @@ export default function Aboutus() {
             </div>
           </div>
 
-          {/* Footer links */}
+     
           <div className="mt-20 text-sm text-white space-y-4 text-center md:text-left">
             <a
               href="/board-of-advisors"

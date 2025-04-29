@@ -25,12 +25,12 @@ const HowWeWork = () => {
       <h2 className="text-2xl font-semibold text-light-blue mb-10">How we work?</h2>
       <div className="flex flex-wrap justify-start gap-12 max-w-6xl">
         {steps.map((step, index) => (
-          <div key={index} className="flex flex-col items-start  text-center">
+          <div key={index} className="flex flex-col ">
             <div className="w-12 h-12 border text-black border-dark-blue rounded-full flex items-center justify-center text-lg font-bold mb-4">
               {step.number}
             </div>
             <div className="w-[159.75px] h-0.5 bg-light-blue mb-4"></div>
-            <p className="text-light-blue max-w-[210px]">{step.title}</p>
+            <p className="text-light-blue max-w-[210px] ">{step.title}</p>
           </div>
         ))}
       </div>

@@ -1,29 +1,30 @@
 import React from "react";
+import blue from '../assets/logos/blue_full_logo_26.svg'
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-white pt-16">
+    <footer className="w-full bg-white pt-16 font-dmsans">
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-start gap-10">
 
-        {/* Left Side - Logo and Address */}
+        
         <div className="flex flex-col gap-6">
-          {/* Logo */}
+       
           <img
-            src="/path-to-your-logo.png" // <-- Replace with your logo path
+            src={blue}
             alt="MobiusEngine Logo"
             className="h-10"
           />
 
-          {/* Address */}
+       
           <div className="text-sm text-gray-700">
             <p className="font-semibold text-blue-600 mb-1">Address</p>
             <p>1675 Mission St Ste 103 #450<br />San Francisco, CA 94103</p>
           </div>
         </div>
 
-        {/* Center - Email and Phone */}
+       
         <div className="flex flex-col gap-6">
-          {/* Email */}
+      
           <div className="text-sm text-gray-700">
             <p className="font-semibold text-blue-600 mb-1">Email</p>
             <a href="mailto:finance@mobiusengine.ai" className="hover:underline">
@@ -31,7 +32,7 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Telephone */}
+        
           <div className="text-sm text-gray-700">
             <p className="font-semibold text-blue-600 mb-1">Telephone</p>
             <a href="tel:6608886026" className="hover:underline">
@@ -40,28 +41,34 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Right Side - Social Links */}
+      
         <div className="flex flex-col gap-6">
-          <p className="font-semibold text-blue-600 text-sm">Socials</p>
-          <div className="flex gap-4">
-            {/* LinkedIn Icons */}
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <div className="border border-blue-600 rounded-full p-2">
-                <img src="/linkedin-icon.svg" alt="LinkedIn" className="h-5 w-5" />
-              </div>
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <div className="border border-blue-600 rounded-full p-2">
-                <img src="/linkedin-icon.svg" alt="LinkedIn" className="h-5 w-5" />
-              </div>
-            </a>
+          <p className="font-semibold text-light-blue text-sm">Socials</p>
+          <div className="flex gap-4 text-light-blue font-dmsans">
+         
+            <a
+                href="https://linkedin.com/in/ashwin"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" flex justify-center items-center   w-[33px] h-[33px] font-bold  text-[20px] rounded-full p-2 border border-light-blue"
+              >
+                in
+              </a>
+              <a
+                href="https://linkedin.com/in/ashwin"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" flex justify-center items-center  w-[33px] h-[33px] font-bold  text-[20px] rounded-full p-2 border border-light-blue"
+              >
+                in
+              </a>
           </div>
         </div>
 
       </div>
 
-      {/* Bottom Bar */}
-      <div className="bg-blue-600 mt-16 py-4 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center text-xs text-white">
+
+      <div className="bg-light-blue mt-16 py-4 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center text-xs text-white">
         <p>© 2023 Mobiusservices LLC</p>
         <div className="flex gap-6 mt-2 md:mt-0">
           <a href="/terms" className="hover:underline">

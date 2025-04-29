@@ -17,24 +17,24 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-12 px-4 flex flex-col items-center">
-      <h2 className="text-2xl font-semibold text-blue-600 mb-8">What our clients have to say</h2>
-      <div className="flex flex-wrap gap-6 justify-center  ">
+    <section className="pt-[67.5px] mx-auto w-[971.3625px] px-4 flex flex-col items-center">
+      <h2 className="text-2xl pb-[85px]  self-start text-[30px]  font-semibold text-light-blue">What our clients have to say</h2>
+      <div className="flex  gap-[39px] justify-center  ">
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="w-72 bg-white border border-blue-500 rounded-2xl overflow-hidden flex flex-col justify-between"
+            className="w-72 h-[337.5px]  overflow-hidden flex flex-col border rounded-[26.25px] bg-light-blue"
           >
-            <div className="h-48 flex items-center justify-center">
-              <button className="bg-blue-600 p-3 rounded-full">
-                <Play className="text-white" size={24} />
+            <div className="h-48 flex items-center bg-white border border-light-blue rounded-[26.25px] justify-center">
+              <button className="bg-light-blue p-3 rounded-full">
+                <Play className="text-whiteish" size={24} />
               </button>
             </div>
-            <div className="bg-blue-600 p-4 text-white relative ">
+            <div className="bg-light-blue p-4 text-whiteish relative pb-[56px]">
               <p className=''>
                 {testimonial.name} <span className="font-bold ">{testimonial.description.split(' ')[0]} {testimonial.description.split(' ')[1]}</span> {testimonial.description.split(' ').slice(2).join(' ')}
               </p>
-              <button className="absolute bottom-4 right-4 bg-white text-blue-600 p-2 mt-[17px] rounded-full">
+              <button className="absolute bottom-4 right-4 bg-whiteish transition-all duration-300 hover:bg-[#022183] hover:text-whiteish text-light-blue p-2 mt-[17px] rounded-full">
                 <ArrowUpRight size={20} />
               </button>
             </div>
@@ -43,11 +43,11 @@ export default function Testimonials() {
       </div>
 
       <div className="flex gap-4 mt-8">
-        <button className="border border-blue-600 text-blue-600 px-6 py-2 rounded-full flex items-center gap-2">
+        <button className="border border-light-blue text-light-blue px-6 py-2 rounded-full flex items-center gap-2 transition-all duration-300 hover:bg-[#022183] hover:text-whiteish">
           More customer testimonials
           <ArrowUpRight size={16} />
         </button>
-        <button className="bg-blue-600 text-white px-6 py-2 rounded-full flex items-center gap-2">
+        <button className="bg-light-blue text-white px-6 py-2 rounded-full flex items-center gap-2 transition-all duration-300 hover:bg-[#022183] hover:text-whiteish">
           Get Started
           <ArrowUpRight size={16} />
         </button>
